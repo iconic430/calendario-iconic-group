@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { ArrowLeft } from 'lucide-react';
 import { StatusBadge } from './components/StatusBadge';
 
 const App: React.FC = () => {
@@ -15,7 +14,7 @@ const App: React.FC = () => {
 
         {/* Hero Section */}
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4 px-4">
-          ¡Acceso <span className="text-cyan-400">Concedido!</span>
+          Agendamiento <span className="text-cyan-400">Iconic Group</span>
         </h1>
         
         <p className="text-zinc-400 text-sm md:text-base max-w-xl leading-relaxed mb-8 px-4">
@@ -42,19 +41,7 @@ const App: React.FC = () => {
               className="w-full h-[600px] md:h-[750px]"
               title="Booking Calendar"
             ></iframe>
-            <script src="https://link.markgrowth.pro/js/embed.js" type="text/javascript"></script>
           </div>
-        </div>
-
-        {/* Back Button */}
-        <div className="flex justify-center mb-12">
-          <button 
-            onClick={() => window.location.href = '#'}
-            className="flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 text-white font-semibold py-3 px-6 rounded-xl transition-all hover:scale-[1.02] active:scale-95 border border-zinc-700"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Volver al inicio
-          </button>
         </div>
       </main>
 
