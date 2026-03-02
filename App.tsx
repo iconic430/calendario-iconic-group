@@ -14,15 +14,28 @@ const App: React.FC = () => {
 
         {/* Hero Section */}
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4 px-4">
-          Agendamiento <span className="text-cyan-400">Iconic Group</span>
+          Paso Final: <span className="text-cyan-400">Asegura tu Sesión Estratégica</span>
         </h1>
         
-        <p className="text-zinc-400 text-sm md:text-base max-w-xl leading-relaxed mb-8 px-4">
-          Tu clínica ha pasado los filtros iniciales. El siguiente paso es agendar tu sesión de implementación estratégica a continuación.
+        <p className="text-zinc-400 text-sm md:text-base max-w-xl leading-relaxed mb-16 px-4">
+          Tu clínica ha pasado los filtros iniciales. Sin embargo, tu lugar <span className="text-white font-semibold uppercase">AÚN NO</span> está asegurado. Selecciona un horario debajo para completar tu evaluación antes de que tu solicitud expire en 24 horas.
         </p>
 
+        {/* Video Section */}
+        <div className="w-full max-w-[700px] mb-28 px-4">
+          <div className="relative aspect-[9/16] rounded-3xl overflow-hidden border border-zinc-800 bg-zinc-900/40 shadow-2xl">
+            <iframe
+              src="https://drive.google.com/file/d/17mYJAJ9uUTLHJ3yKSulzpWRDLhNAGl84/preview"
+              className="absolute inset-0 w-full h-full"
+              allow="autoplay; fullscreen"
+              title="Intro Video"
+              referrerPolicy="no-referrer"
+            ></iframe>
+          </div>
+        </div>
+
         {/* Calendar Card */}
-        <div className="w-full bg-zinc-900/40 backdrop-blur-xl border border-zinc-800 rounded-[32px] md:rounded-[40px] overflow-hidden shadow-2xl card-glow relative mb-10">
+        <div className="w-full bg-zinc-900/40 backdrop-blur-xl border border-zinc-800 rounded-[32px] md:rounded-[40px] overflow-hidden shadow-2xl card-glow relative mb-32">
           <div className="p-4 md:p-8 border-b border-zinc-800 bg-zinc-900/20">
              <h2 className="text-xl md:text-2xl font-bold text-white">
                 Reserva tu Sesión Estratégica
