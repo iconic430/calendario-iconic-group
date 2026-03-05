@@ -32,13 +32,13 @@ const App: React.FC = () => {
              </p>
           </div>
 
-          <div className="relative w-full min-h-[600px] md:min-h-[800px] bg-white/5">
+          <div className="relative w-full min-h-[970px] md:min-h-[970px] bg-white/5">
             <iframe 
               src="https://link.markgrowth.pro/widget/booking/4yLc6nWJE0ytLrijalNv" 
               style={{ width: '100%', border: 'none', overflow: 'hidden' }}
               scrolling="no" 
               id="4yLc6nWJE0ytLrijalNv_1771307378612"
-              className="w-full h-[600px] md:h-[800px]"
+              className="w-full h-[970px] md:h-[970px]"
               title="Booking Calendar"
             ></iframe>
           </div>
